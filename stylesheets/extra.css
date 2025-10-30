@@ -1,0 +1,107 @@
+:root>* {
+    --md-primary-fg-color: #1a1414;
+    --md-primary-fg-color--light: #ECB7B7;
+    --md-primary-fg-color--dark: #1e2129;
+}
+
+
+/* .md-header {
+    background-color: #222222 !important;
+} */
+
+
+/* .md-header__button {
+    color: white !important;
+}
+
+.md-header__title {
+    color: white !important;
+} */
+
+.md-footer,
+.md-footer__inner,
+.md-footer-copyright,
+.md-footer__title,
+.md-footer__direction {
+    display: none !important;
+}
+
+._red {
+    color: #ef5552;
+    font-weight: bold;
+}
+
+._green {
+    color: #397d2c;
+    font-weight: bold;
+}
+
+.Small_table_image {
+    width: 100px;
+    height: auto;
+}
+
+.cover {
+    position: relative;
+    background: url("../image.png") no-repeat center center;
+    background-size: cover;
+    color: white;
+    min-height: 300px;
+    /* << set the minimum height */
+    height: 20vh;
+    /* << proportional to viewport (e.g., 50% of screen height) */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* centers text vertically */
+    align-items: center;
+    /* centers text horizontally */
+    text-align: center;
+    overflow: hidden;
+    border-radius: 0 0 0px 0px;
+    padding: 0px;
+    /* Optional padding for better text spacing */
+}
+
+
+/* Gradient fade at bottom */
+
+.cover::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 10%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, var(--md-default-bg-color) 100%);
+}
+
+
+/* Ensure text is readable */
+
+.cover h1,
+.cover h2,
+.cover p {
+    position: relative;
+    z-index: 1;
+}
+
+.gallery-table img {
+    width: 100%;
+    max-width: 250px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.gallery-table img:hover {
+    transform: scale(1.05);
+}
+
+.gallery-table td {
+    text-align: center;
+    padding: 15px;
+    vertical-align: top;
+}
