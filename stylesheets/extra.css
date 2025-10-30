@@ -105,3 +105,65 @@
     padding: 15px;
     vertical-align: top;
 }
+
+
+/* CVE Chip Styling */
+
+.cve-chip {
+    display: inline-block;
+    background: linear-gradient(135deg, #ff6b6b, #ee5a52);
+    color: white !important;
+    padding: 0.2rem 0.6rem;
+    border-radius: 1.5rem;
+    font-size: 0.50rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    box-shadow: 0 2px 6px rgba(238, 90, 82, 0.3);
+    transition: all 0.3s ease;
+    border: none;
+    text-decoration: none;
+}
+
+.cve-chip:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(238, 90, 82, 0.4);
+    background: linear-gradient(135deg, #ff5252, #d32f2f);
+    color: white !important;
+}
+
+
+/* Grid Card Image Styling */
+
+.md-typeset .grid.cards img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 1rem;
+}
+
+.md-typeset .grid.cards img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Grid Card Hover Effect - Blue Frame */
+
+.md-typeset .grid.cards>ul>li,
+.md-typeset .grid.cards>ol>li {
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+    border-radius: 12px;
+}
+
+.md-typeset .grid.cards>ul>li:hover,
+.md-typeset .grid.cards>ol>li:hover {
+    border: 2px solid #2196F3 !important;
+    box-shadow: 0 4px 20px rgba(33, 150, 243, 0.3) !important;
+    transform: translateY(-2px);
+    border-radius: 12px;
+}
