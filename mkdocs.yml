@@ -76,5 +76,6 @@ plugins:
 nav:
   - Home :
     - index.md
+  - Archive: archive.md
   
   
