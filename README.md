@@ -34,4 +34,6 @@ python -m mkdocs serve
 [check this link](https://pypi.org/project/mkdocs-video/)
 
 
+mkdocs gh-deploy  
+
 

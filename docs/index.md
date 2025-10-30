@@ -9,7 +9,6 @@ hide:
 
 <div class="grid cards" markdown>
 
-
 -   ![alt text](image-5.png)
 
     :material-database-alert:{ .lg .middle } __Everest Ransomware Leaks AT&T and Aviation Records__

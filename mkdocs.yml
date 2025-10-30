@@ -1,4 +1,5 @@
 site_name: Incidents
+site_url: https://mohamedsalahelden.github.io/incident/
 theme:
   favicon: alarm.png
   logo: alarm.png
