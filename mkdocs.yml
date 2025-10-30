@@ -74,8 +74,19 @@ plugins:
 
 
 nav:
-  - Home :
+  - Today's Incidents:
     - index.md
+  - This Week:
+    - This-Week.md
+  - Incidents:
+    - "Nihon Kohden CNS-6201": nihon-kohden-cns-6201.md
+    - "ASKI Energy ALS-Mini": aski-energy-als-mini.md
+    - "Delta Electronics ASDA-Soft": delta-electronics-asda-soft.md
+    - "Windows Server WSUS": windows-server-wsus.md
+    - "BlueNoroff Campaigns": bluenoroff-ghostcall-ghosthire.md
+    - "Everest AT&T Aviation Leaks": everest-att-aviation-leaks.md
+    - "HSBC USA Data Breach": hsbc-usa-data-breach.md
+    - "Vertikal Hospital Manager": vertikal-hospital-manager.md
   - Archive: archive.md
   
   

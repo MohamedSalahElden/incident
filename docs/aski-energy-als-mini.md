@@ -1,9 +1,13 @@
 ---
 hide:
-  - navigation
+  - toc
 ---
 
 # ASKI Energy ALS-Mini-S8 and ALS-Mini-S4 Vulnerability
+
+**CVE-2025-62579**{.cve-chip}
+**Code execution**{.cve-chip}
+**configuration compromise**{.cve-chip}
 
 ## Overview
 A critical security vulnerability in the embedded web server of ASKI Energy ALS-Mini-S4 and ALS-Mini-S8 IP controllers allows remote attackers to access and modify configuration parameters without authentication. The flaw provides full administrative control over affected devices, compromising their operational integrity.

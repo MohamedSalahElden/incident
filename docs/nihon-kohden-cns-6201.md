@@ -1,6 +1,6 @@
 ---
 hide:
-  - navigation
+  - toc
 ---
 
 # Nihon Kohden CNS-6201 Central Monitor Vulnerability

@@ -1,6 +1,6 @@
 ---
 hide:
-  - navigation
+  - toc
 ---
 
 # Delta Electronics ASDA-Soft Vulnerability
