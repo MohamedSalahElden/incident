@@ -4,6 +4,7 @@ hide:
   - toc
 ---
 
+
 # Incidents of today
 
 
